@@ -7,7 +7,7 @@ import BackgroundImg from "../../../../../public/Background.png"
 import styles from "../styles/landingpage.module.css"
 
 type ReviewItem = {
-  comments: string | (() => JSX.Element)
+  comments: string | (() => React.ReactNode)
 }
 export default function Reviews() {
     const reviews = [
