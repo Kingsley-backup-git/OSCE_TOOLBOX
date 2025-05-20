@@ -25,7 +25,7 @@ export default function Landingpage() {
   return (
  <div className='w-full h-[200vh]'>
     <TopIntro />
-    <div className='w-full px-6'>
+    <div className='w-full px-6 max-w-[1400px] mx-auto '>
  <Header />
  <Reviews />
 
