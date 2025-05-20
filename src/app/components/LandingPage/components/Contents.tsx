@@ -11,11 +11,12 @@ import Video7 from "@/assets/video8.png"
 import Video8 from "@/assets/video9.png"
 import WaveImg from "@/assets/wave.png"
 import { FaInstagram } from "react-icons/fa";
+import styles from "../styles/landingpage.module.css"
 import Link from 'next/link'
 export default function Contents() {
   return (
     <div className="mt-6 mb-10 pt-8 pb-20 relative">
-    <div className="overflow-auto  flex flex-nowrap gap-6">
+    <div className={`overflow-auto ${styles.scrollables} flex flex-nowrap gap-6`}>
      
 <Link className='cursor-pointer' href="https://www.instagram.com/reel/DHVbt7Dsl4-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
     <Image src={Video1} className='min-w-[200px] h-[350px]' width={300} height={300} alt='' />

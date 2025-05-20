@@ -185,11 +185,11 @@ visibility: hidden;
   z-index: 1;
 }
 
-div {
+.scrollables {
   scrollbar-width: none; /* Completely hides scrollbar */
   -ms-overflow-style: none;
-  
+
 }
-div::-webkit-scrollbar {
+.scrollables::-webkit-scrollbar {
   display: none;
 }
