@@ -184,3 +184,12 @@ visibility: hidden;
   height: 20px;
   z-index: 1;
 }
+
+div {
+  scrollbar-width: none; /* Completely hides scrollbar */
+  -ms-overflow-style: none;
+  
+}
+div::-webkit-scrollbar {
+  display: none;
+}
