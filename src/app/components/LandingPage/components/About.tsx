@@ -2,7 +2,7 @@
 import React,{useRef, useState} from 'react'
 import { IoIosPlay } from "react-icons/io";
 export default function About() {
-  const videoref = useRef(null)
+  const videoref = useRef<HTMLVideoElement>(null)
 const [isPlaying, setIsPlaying] = useState(false)
   function togglePlay () {
     if(isPlaying) {
